@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register2Activity">
+
+    <EditText
+        android:id="@+id/userage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="Yaşınız"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="Boyunuz"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/userage"
+        app:layout_constraintTop_toBottomOf="@+id/userage" />
+
+    <EditText
+        android:id="@+id/userweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Kilonuz"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/userheight"
+        app:layout_constraintTop_toBottomOf="@+id/userheight" />
+
+    <EditText
+        android:id="@+id/usertargetweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Hedef kilonuz"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/userweight"
+        app:layout_constraintTop_toBottomOf="@+id/userweight" />
+
+    <Button
+        android:id="@+id/btnregister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Devamet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usertargetweight" />
+
+</android.support.constraint.ConstraintLayout>

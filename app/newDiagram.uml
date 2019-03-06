@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="162.48369565217394" y="1556.0">com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity</node>
+    <node x="81.25000000000001" y="301.0">com.example.ogzkaras.diyet_takvimi.RegisterActivity</node>
+    <node x="82.60869565217396" y="1658.0">com.example.ogzkaras.diyet_takvimi.CalculateActivity</node>
+    <node x="167.8396739130435" y="1780.0">com.example.ogzkaras.diyet_takvimi.MenuActivity</node>
+    <node x="140.0625" y="947.0">com.example.ogzkaras.diyet_takvimi.ProfileActivity</node>
+    <node x="0.0" y="0.0">com.example.ogzkaras.diyet_takvimi.Register2Activity</node>
+    <node x="62.250000000000014" y="668.0">com.example.ogzkaras.diyet_takvimi.LoginActivity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.ogzkaras.diyet_takvimi.ProfileActivity" target="com.example.ogzkaras.diyet_takvimi.LoginActivity">
+      <point x="0.0" y="-279.5" />
+      <point x="254.0625" y="922.0" />
+      <point x="233.25" y="922.0" />
+      <point x="57.0" y="114.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.LoginActivity" target="com.example.ogzkaras.diyet_takvimi.RegisterActivity">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.MenuActivity" target="com.example.ogzkaras.diyet_takvimi.CalculateActivity">
+      <point x="-34.6875" y="-26.0" />
+      <point x="225.6521739130435" y="1740.0" />
+      <point x="128.85869565217396" y="1740.0" />
+      <point x="-46.25" y="26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity" target="com.example.ogzkaras.diyet_takvimi.CalculateActivity">
+      <point x="-23.125" y="26.0" />
+      <point x="231.85869565217394" y="1633.0" />
+      <point x="244.4836956521739" y="1633.0" />
+      <point x="69.37499999999994" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.CalculateActivity" target="com.example.ogzkaras.diyet_takvimi.MenuActivity">
+      <point x="46.25" y="26.0" />
+      <point x="221.35869565217396" y="1730.0" />
+      <point x="248.7771739130435" y="1730.0" />
+      <point x="-11.5625" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.ProfileActivity" target="com.example.ogzkaras.diyet_takvimi.CalculateActivity">
+      <point x="-57.0" y="279.5" />
+      <point x="197.0625" y="1536.0" />
+      <point x="137.5625" y="1536.0" />
+      <point x="137.5625" y="1633.0" />
+      <point x="151.9836956521739" y="1633.0" />
+      <point x="-23.125000000000057" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.MenuActivity" target="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity">
+      <point x="34.6875" y="-26.0" />
+      <point x="295.0271739130435" y="1760.0" />
+      <point x="309.9809782608696" y="1760.0" />
+      <point x="309.9809782608696" y="1633.0" />
+      <point x="324.35869565217394" y="1633.0" />
+      <point x="69.375" y="26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.Register2Activity" target="com.example.ogzkaras.diyet_takvimi.MenuActivity">
+      <point x="-57.0" y="125.5" />
+      <point x="57.0" y="276.0" />
+      <point x="35.91847826086959" y="276.0" />
+      <point x="35.91847826086959" y="1760.0" />
+      <point x="179.4021739130435" y="1760.0" />
+      <point x="-80.9375" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity" target="com.example.ogzkaras.diyet_takvimi.MenuActivity">
+      <point x="23.125" y="26.0" />
+      <point x="278.10869565217394" y="1633.0" />
+      <point x="295.73369565217394" y="1633.0" />
+      <point x="295.73369565217394" y="1750.0" />
+      <point x="271.9021739130435" y="1750.0" />
+      <point x="11.5625" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.ProfileActivity" target="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity">
+      <point x="19.0" y="279.5" />
+      <point x="273.0625" y="1536.0" />
+      <point x="301.23369565217394" y="1536.0" />
+      <point x="46.25" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.LoginActivity" target="com.example.ogzkaras.diyet_takvimi.MenuActivity">
+      <point x="-57.0" y="114.5" />
+      <point x="119.25000000000001" y="922.0" />
+      <point x="72.10869565217396" y="922.0" />
+      <point x="72.10869565217396" y="1750.0" />
+      <point x="202.5271739130435" y="1750.0" />
+      <point x="-57.8125" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.RegisterActivity" target="com.example.ogzkaras.diyet_takvimi.Register2Activity">
+      <point x="0.0" y="-158.5" />
+      <point x="176.25" y="276.0" />
+      <point x="171.0" y="276.0" />
+      <point x="57.0" y="125.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity" target="com.example.ogzkaras.diyet_takvimi.ProfileActivity">
+      <point x="-46.25" y="-26.0" />
+      <point x="208.73369565217394" y="1536.0" />
+      <point x="235.0625" y="1536.0" />
+      <point x="-19.0" y="279.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.MenuActivity" target="com.example.ogzkaras.diyet_takvimi.ProfileActivity">
+      <point x="57.8125" y="-26.0" />
+      <point x="318.1521739130435" y="1750.0" />
+      <point x="357.98369565217394" y="1750.0" />
+      <point x="357.98369565217394" y="1536.0" />
+      <point x="311.0625" y="1536.0" />
+      <point x="56.999999999999986" y="279.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.ProfileActivity" target="com.example.ogzkaras.diyet_takvimi.MenuActivity">
+      <point x="94.99999999999999" y="279.5" />
+      <point x="349.0625" y="1526.0" />
+      <point x="368.98369565217394" y="1526.0" />
+      <point x="368.98369565217394" y="1760.0" />
+      <point x="341.2771739130435" y="1760.0" />
+      <point x="80.9375" y="-26.0" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.CalculateActivity" target="com.example.ogzkaras.diyet_takvimi.ProfileActivity">
+      <point x="-69.37500000000006" y="-26.0" />
+      <point x="105.7336956521739" y="1633.0" />
+      <point x="123.1711956521739" y="1633.0" />
+      <point x="123.1711956521739" y="1526.0" />
+      <point x="159.0625" y="1526.0" />
+      <point x="-95.0" y="279.5" />
+    </edge>
+    <edge source="com.example.ogzkaras.diyet_takvimi.CalculateActivity" target="com.example.ogzkaras.diyet_takvimi.SearchCaloriActivity">
+      <point x="23.124999999999943" y="-26.0" />
+      <point x="198.2336956521739" y="1633.0" />
+      <point x="185.60869565217394" y="1633.0" />
+      <point x="-69.375" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="1.0" x="300.0" y="1424.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
